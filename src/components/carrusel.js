@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 
 const Foto = () => (
 <Container class="box">
-<Carousel>
+<Carousel style={{marginTop:20}}>
   <Carousel.Item>
     <img
       className="d-block w-100"
