@@ -1,16 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './components/header.js'
 import Carrusel from './components/carrusel.js'
-import View from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 function App() {
   return (
     <div className="App">
+
       <Header />
       <Carrusel />
-    </div>
 
-  );
-}
+    </div>
+)}
 export default App;

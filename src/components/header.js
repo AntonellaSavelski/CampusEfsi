@@ -1,6 +1,5 @@
 import Navbar from "react-bootstrap/Navbar"
 import Container from 'react-bootstrap/Container';
-import bootstrap from "bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Logo from "../../src/img/logo.png"
 import Perfil from "../../src/img/perfil.PNG"
@@ -12,7 +11,7 @@ const Header = () => (
   <Navbar.Brand>
       <img
         src= {Logo}
-        height="40"
+        height="50"
         className="d-inline-block align-top"
         alt="React Bootstrap logo"
       />
@@ -21,13 +20,13 @@ const Header = () => (
     <Navbar.Collapse className="justify-content-end">
     <img
         src= {Perfil}
-        height="50"
+        height="60"
         className="d-inline-block align-top"
         alt="React Bootstrap logo"
       />
       <img
         src= {Lineas}
-        height="50"
+        height="60"
         className="d-inline-block align-top"
         alt="React Bootstrap logo"
       />
