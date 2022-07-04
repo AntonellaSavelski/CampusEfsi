@@ -4,10 +4,11 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Logo from "../../src/img/logo.png"
 import Perfil from "../../src/img/perfil.PNG"
 import Lineas from "../../src/img/lineas.PNG"
+import styles from "../../src/styles.module.css"
 
 const Header = () => (
-<Navbar >
-  <Container class="box">
+<Navbar className={styles.nav}>
+  <Container >
   <Navbar.Brand>
       <img
         src= {Logo}

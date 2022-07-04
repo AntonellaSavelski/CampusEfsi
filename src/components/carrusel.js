@@ -2,10 +2,11 @@ import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Principal from "../../src/img/principal.jpeg"
 import Container from 'react-bootstrap/Container';
+import styles from "../../src/styles.module.css"
 
 const Foto = () => (
-<Container class="box">
-<Carousel style={{marginTop:20}}>
+<Container >
+<Carousel className={styles.componentes}>
   <Carousel.Item>
     <img
       className="d-block w-100"

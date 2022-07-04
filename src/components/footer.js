@@ -1,8 +1,7 @@
-import Navbar from "react-bootstrap/Navbar"
-import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import styles from "../../src/styles.module.css"
 
 const Footer = () => (
-<div> Hacer footer</div>
+<div className={styles.foot}> Copyright © 5A 2020</div>
 )
 export default Footer;
